@@ -98,7 +98,8 @@ async function main() {
       data: {
         name: "Teclados",
         slug: "keyboards",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/keyboards.png",
+        imageUrl:
+          "https://utfs.io/f/bebd6fe5-ca55-48de-ae94-6d7ddc85ff0a-pv4uj8.png",
       },
     });
 
@@ -109,10 +110,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-keys-mini.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-keys-mini.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-keys-mini.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-keys-mini.png",
+          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-keys-s.png",
+          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-keys-s.png",
+          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-keys-s.png",
+          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-keys-s.png",
         ],
         basePrice: 650,
         categoryId: keyboardsCategory.id,
