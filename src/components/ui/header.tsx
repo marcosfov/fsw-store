@@ -10,6 +10,7 @@ import {
   ShoppingCartIcon,
 } from "lucide-react";
 import { signIn, signOut, useSession } from "next-auth/react";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { Card } from "./card";
@@ -22,7 +23,6 @@ import {
 } from "./sheet";
 import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { Separator } from "./separator";
-import Link from "next/link";
 
 const Header = () => {
   const { status, data } = useSession();
@@ -119,9 +119,11 @@ const Header = () => {
         </SheetContent>
       </Sheet>
 
-      <h1 className="text-lg font-semibold">
-        <span className="text-primary">FSW </span>Store
-      </h1>
+      <Link href="/">
+        <h1 className="text-lg font-semibold">
+          <span className="text-primary">FSW </span>Store
+        </h1>
+      </Link>
 
       <Button variant="outline" size="icon">
         <ShoppingCartIcon />
